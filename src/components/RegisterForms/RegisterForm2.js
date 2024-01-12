@@ -89,8 +89,8 @@ class RegisterForm2 extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className=" text-center hidden lg:flex">
-                        <img src={empresa} alt="logo" style={{ width: "550px", height: "740px" }} />
+                    <div className=" text-center hidden lg:flex  ">
+                        <img src={empresa} alt="logo" className="rounded-r-lg" style={{ width: "550px", height: "740px" }} />
                     </div>
                 </div>
             </section >
