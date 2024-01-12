@@ -2,13 +2,13 @@
 import React from 'react'
 
 //Importação do logotipo da empresa
-import logo from './logo.png';
+import logo from './images/logo.png';
 
 //Importação de estilo
 import './App.css';
 
-// Importação do componente de formulário
-import RegisterForm from './components/RegisterForm';
+//Importa um selecionador de desing
+import SelectedDesign from './components/SelectDesign';
 
 
 function App() {
@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="logo-image">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={logo} alt="logo" width={55} height={55} />
         </div>
       </header>
 
-      <RegisterForm />
+      <SelectedDesign />
 
       <footer className="footer">
         <div className="logo-image">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={logo} className="logo" alt="logo" width={55} height={55} />
         </div>
       </footer>
     </div >

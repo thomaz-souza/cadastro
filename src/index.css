@@ -12,8 +12,10 @@ code {
     monospace;
 }
 
-header, footer{
+header,
+footer {
   display: flex;
-  align-items: center;            padding: 10px;
+  align-items: center;
+  padding: 10px;
   background-color: #4B4F58;
 }

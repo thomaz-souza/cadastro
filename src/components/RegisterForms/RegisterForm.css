@@ -1,0 +1,124 @@
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    width: 407px;
+    height: 550px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.box-left {
+    border-radius: 10px 0 0 10px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: black;
+    padding-block: 80px;
+}
+
+.box-right {
+    border-radius: 0 10px 10px 0;
+    background-color: #fff;
+    opacity: 0.920;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+
+.icon {
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    border-radius: 50px;
+    border: none;
+}
+
+.div-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-color: #EA0000;
+    border-radius: 40px;
+}
+
+.div-box .input-box {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+
+.input-box:placeholder-shown {
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.action-button {
+    margin: auto;
+    width: 45%;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff !important;
+    font-weight: 900;
+}
+
+.action-button:hover {
+    background: #EA0000 !important;
+    border: none;
+}
+
+@media (max-width:500px) {
+
+    .box-wrapper {
+        background-image: url(../../images/empresarios-trabalhando.jpg);
+    }
+
+    .box {
+        width: 95%;
+        height: 550px;
+        border: none;
+        border-radius: 0;
+    }
+
+    .box-left {
+        display: none;
+    }
+
+    .logo-mobile {
+        background-color: #000;
+        border-radius: 25px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .div-box {
+        width: 290px;
+    }
+
+    .action-button {
+        border-color: #EA0000 !important;
+    }
+}
